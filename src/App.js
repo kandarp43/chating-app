@@ -7,9 +7,9 @@ function App() {
   return (
     <div>
       <div className='left-side'>
+        <ProfileSection />
         <ChatCards />
         <SearchUsers />
-        <ProfileSection />
       </div>
       <div className='right-side'></div>
     </div>
