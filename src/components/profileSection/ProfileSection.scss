@@ -1,0 +1,16 @@
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #171d27;
+  color: #dddddd;
+  min-height: 59px;
+  padding: 0 15px;
+  .img-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+  }
+}
