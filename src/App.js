@@ -8,8 +8,8 @@ function App() {
     <div>
       <div className='left-side'>
         <ProfileSection />
-        <ChatCards />
         <SearchUsers />
+        <ChatCards />
       </div>
       <div className='right-side'></div>
     </div>
