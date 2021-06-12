@@ -10,8 +10,13 @@ function App() {
         <ProfileSection />
         <SearchUsers />
         <ChatCards />
+        <ChatCards />
+        <ChatCards />
+        <ChatCards />
       </div>
-      <div className='right-side'></div>
+      <div className='right-side'>
+        
+      </div>
     </div>
   )
 }
