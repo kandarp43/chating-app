@@ -10,6 +10,7 @@ function ProfileSection() {
           alt='placeforimage'
         />
       </div>
+      kandarp
       <div className='action-items'>Logout</div>
     </div>
   )
