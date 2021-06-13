@@ -1,6 +1,6 @@
 .chat-container {
   flex: 1;
-  background: #353535;
+  background: #111110;
   padding: 20px;
   overflow-y: scroll;
   .chat {
@@ -24,7 +24,7 @@
     .msg {
       color: #fff;
       font-size: 15px;
-      margin: 5px 0 15px 0;
+      margin: 5px 0 12px 0;
     }
     .time {
       position: absolute;
@@ -41,27 +41,27 @@
       &::after {
         left: -12px;
         right: auto;
-        border-color: #839ec4 transparent transparent transparent;
+        border-color: #21262d transparent transparent transparent;
       }
       .name {
         font-weight: 500;
-        color: #4edda9;
+        color: #5bdb4a;
       }
     }
     &.me {
       float: left;
       margin-left: 10%;
-      background: #61a9da;
+      background: #26a641;
       font-size: 14px;
       right: 15px;
       &::after {
         left: auto;
         right: -12px;
-        border-color: #61a9da transparent transparent transparent;
+        border-color: #26a641 transparent transparent transparent;
       }
       .name {
-        font-weight: 500;
-        color: #797979;
+        font-weight: 600;
+        color: #a7fa49;
       }
     }
   }
