@@ -41,27 +41,27 @@
       &::after {
         left: -12px;
         right: auto;
-        border-color: #21262d transparent transparent transparent;
+        border-color: #839ec4 transparent transparent transparent;
       }
       .name {
         font-weight: 500;
-        color: #36cd96;
+        color: #4edda9;
       }
     }
     &.me {
       float: left;
       margin-left: 10%;
-      background: #dbf8c6;
+      background: #61a9da;
       font-size: 14px;
       right: 15px;
       &::after {
         left: auto;
         right: -12px;
-        border-color: #dbf8c6 transparent transparent transparent;
+        border-color: #61a9da transparent transparent transparent;
       }
       .name {
         font-weight: 500;
-        color: #36cd96;
+        color: #797979;
       }
     }
   }

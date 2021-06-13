@@ -8,6 +8,11 @@ function Chat() {
         <p className='msg'>this is message</p>
         <span className='time'>10:10</span>
       </div>
+      <div className='chat me'>
+        <span className='name'>kandarp</span>
+        <p className='msg'>this is message</p>
+        <span className='time'>10:10</span>
+      </div>
     </div>
   )
 }
