@@ -1,13 +1,17 @@
 .chat-cards {
-  background: #171d27;
+  background: #0d1117;
+  margin: 2px 0;
+  // width: 100%; do it later
   overflow-y: auto;
   .card {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0 15px;
     min-height: 72px;
+    border-left: 5px solid #171d27;
+    border-bottom: 1px solid #30363d;
     transition: 0.1s all ease-in-out;
-    border-bottom: 1px solid #838383;
     position: relative;
     .img-container {
       display: flex;

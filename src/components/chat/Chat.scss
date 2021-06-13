@@ -1,0 +1,37 @@
+.chat-container {
+  flex: 1;
+  background: #353535;
+  padding: 20px;
+  overflow-y: scroll;
+  .chat {
+    line-height: 22px;
+    padding: 15px;
+    background: #21262d;
+    border-radius: 11px;
+    margin-bottom: 20px;
+    clear: both;
+    min-width: 50px;
+    position: relative;
+    &:after {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      bottom: auto;
+      border: 22px solid;
+    }
+    .msg {
+      color: #fff;
+      font-size: 15px;
+      margin: 5px 0 15px 0;
+    }
+    .time {
+      position: absolute;
+      bottom: 5px;
+      right: 10px;
+      color: #d1cbcb;
+      font-size: 11px;
+    }
+  }
+}
