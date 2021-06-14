@@ -11,7 +11,7 @@ function Chat() {
       <div className='chat you'>
         <span className='name'>kandarp</span>
         <p className='msg'>this is message</p>
-        <span className='time'>10:10</span>
+        <span className='time'>10:15</span>
       </div>
     </div>
   )
