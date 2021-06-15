@@ -9,6 +9,7 @@ function ChatForm() {
         <InsertEmoticonIcon />
         <AttachmentIcon />
       </div>
+      <input type='text' placeholder='message' className='chat-input' />
     </div>
   )
 }
