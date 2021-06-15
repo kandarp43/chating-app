@@ -1,7 +1,12 @@
 import React from 'react'
-
+import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon'
+import './ChatForm.scss'
 function ChatForm() {
-  return <div>ChatForm</div>
+  return (
+    <div className='chat-form'>
+      <div className='action-btn'></div>
+    </div>
+  )
 }
 
 export default ChatForm
