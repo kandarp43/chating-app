@@ -1,26 +1,13 @@
 .chat-form {
   background: #0d1117;
-  min-height: 50px;
+  min-height: 59px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   .action-btn {
     display: flex;
   }
-  .icon-block {
-    color: #ccc;
-    padding: 0;
-    font-size: 25px;
-    opacity: 0.6;
-    &.active {
-      color: #46c756;
-    }
-    &:hover {
-      opacity: 0.9;
-      color: #fff;
-      cursor: pointer;
-    }
-  }
+
   .chat-input {
     flex: 1;
     color: #000;
@@ -30,5 +17,18 @@
     padding: 0 20px;
     outline: none;
     font-size: 16px;
+  }
+}
+.icon-block {
+  font-size: 15px;
+  color: #ccc;
+  opacity: 0.6;
+  &.active {
+    color: #46c756;
+  }
+  &:hover {
+    opacity: 0.9;
+    color: #fff;
+    cursor: pointer;
   }
 }
