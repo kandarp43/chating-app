@@ -1,6 +1,7 @@
 import React from 'react'
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon'
 import AttachmentIcon from '@material-ui/icons/Attachment'
+import MicNoneIcon from '@material-ui/icons/MicNone'
 import './ChatForm.scss'
 function ChatForm() {
   return (
@@ -10,6 +11,7 @@ function ChatForm() {
         <AttachmentIcon />
       </div>
       <input type='text' placeholder='message' className='chat-input' />
+      <MicNoneIcon />
     </div>
   )
 }
