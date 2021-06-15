@@ -4,7 +4,9 @@ import './ChatForm.scss'
 function ChatForm() {
   return (
     <div className='chat-form'>
-      <div className='action-btn'></div>
+      <div className='action-btn'>
+        <InsertEmoticonIcon />
+      </div>
     </div>
   )
 }
