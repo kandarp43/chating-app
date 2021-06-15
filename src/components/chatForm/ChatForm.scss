@@ -4,10 +4,31 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  .action-btn{
-      display: flex;
+  .action-btn {
+    display: flex;
   }
-  .icon-block{
-      
+  .icon-block {
+    color: #ccc;
+    padding: 0;
+    font-size: 25px;
+    opacity: 0.6;
+    &.active {
+      color: #46c756;
+    }
+    &:hover {
+      opacity: 0.9;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  .chat-input {
+    flex: 1;
+    color: #000;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 20px;
+    outline: none;
+    font-size: 16px;
   }
 }
