@@ -7,8 +7,12 @@ function ChatForm() {
   return (
     <div className='chat-form'>
       <div className='action-btn'>
-        <InsertEmoticonIcon className='icon-block' />
-        <AttachmentIcon className='icon-block' />
+        <div className='icon-block'>
+          <InsertEmoticonIcon className=''/>
+        </div>
+        <div className='icon-block'>
+          <AttachmentIcon />
+        </div>
       </div>
       <input type='text' placeholder='message' className='chat-input' />
       <MicNoneIcon className='icon-block' />

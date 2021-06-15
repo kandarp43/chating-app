@@ -7,6 +7,20 @@
   .action-btn {
     display: flex;
   }
+  .icon-block {
+    padding: 0 15px;
+    font-size: 30px;
+    color: #ccc;
+    opacity: 0.6;
+    &.active {
+      color: #46c756;
+    }
+    &:hover {
+      opacity: 0.9;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
 
   .chat-input {
     flex: 1;
@@ -17,18 +31,5 @@
     padding: 0 20px;
     outline: none;
     font-size: 16px;
-  }
-}
-.icon-block {
-  font-size: 15px;
-  color: #ccc;
-  opacity: 0.6;
-  &.active {
-    color: #46c756;
-  }
-  &:hover {
-    opacity: 0.9;
-    color: #fff;
-    cursor: pointer;
   }
 }
