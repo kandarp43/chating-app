@@ -9,17 +9,19 @@
   }
   .icon-block {
     padding: 0 15px;
-    font-size: 30px;
     color: #ccc;
     opacity: 0.6;
     &.active {
       color: #46c756;
     }
     &:hover {
-      opacity: 0.9;
+      opacity: 1;
       color: #fff;
       cursor: pointer;
     }
+  }
+  .icon {
+    font-size: 27px;
   }
 
   .chat-input {
