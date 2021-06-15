@@ -11,7 +11,7 @@ function ChatForm() {
         <AttachmentIcon />
       </div>
       <input type='text' placeholder='message' className='chat-input' />
-      <MicNoneIcon />
+      <MicNoneIcon className='icon-block' />
     </div>
   )
 }
